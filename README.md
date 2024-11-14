@@ -1,14 +1,15 @@
 # Github Repo List
 
-List of repos fetched from API
+List of repos are fetched from the API.
 
-Library used: React
+Library used: React.js (https://react.dev/).
 
-This is built over Vite which is recently popular build tool over Webpack.
+This is built over Vite(https://vite.dev/) which is quite popular build tool over Webpack currently.
+
 
 Notes:
 
-App is also using React Router.
+App is also using React Router for navigations.
 
 A fork can be other set of repos itself. Thus, the component redering for that is handled using recursion.
 
