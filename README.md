@@ -1,8 +1,43 @@
-# React + Vite
+# Github Repo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+List of repos fetched from API
 
-Currently, two official plugins are available:
+Library used: React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is built over Vite which is recently popular build tool over Webpack.
+
+Notes:
+
+React Router is also used here.
+
+A fork can be other set of repos itself. Thus, that component redering for that is handled using recursion.
+
+Things that can be added:
+
+Caching
+Avoiding unnecessary API calls.
+Blocking unrequired API calls.
+React Query can be used to handle data more efficiently. 
+Loaders can be added
+Better styling
+etc.
+
+
+## Run Locally
+
+Start the server
+
+```
+  npm run dev
+```
+
+## Build and Preview
+
+App can be converted to JS and can be previewed.
+
+```
+  npm run build
+
+  npm run preview
+```
+
