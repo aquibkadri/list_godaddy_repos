@@ -17,7 +17,8 @@ Things that can be added:
 Caching
 Avoiding unnecessary API calls.
 Blocking unrequired API calls.
-React Query can be used to handle data more efficiently. 
+React Query can be used to handle data more efficiently.
+Code Splitting
 Loaders can be added
 Tests can be added
 Better styling
@@ -25,6 +26,9 @@ etc.
 
 
 ## Run Locally
+
+System requirements: Node.JS
+Node.js can be downloaded from: https://nodejs.org/en/download/package-manager
 
 Start the server
 
