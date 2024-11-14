@@ -19,6 +19,7 @@ Avoiding unnecessary API calls.
 Blocking unrequired API calls.
 React Query can be used to handle data more efficiently. 
 Loaders can be added
+Tests can be added
 Better styling
 etc.
 
