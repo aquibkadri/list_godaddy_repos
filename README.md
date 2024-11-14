@@ -8,22 +8,11 @@ This is built over Vite which is recently popular build tool over Webpack.
 
 Notes:
 
-React Router is also used here.
+App is also using React Router.
 
-A fork can be other set of repos itself. Thus, that component redering for that is handled using recursion.
+A fork can be other set of repos itself. Thus, the component redering for that is handled using recursion.
 
-Things that can be added:
-
-Caching
-Avoiding unnecessary API calls.
-Blocking unrequired API calls.
-React Query can be used to handle data more efficiently.
-Code Splitting
-Loaders can be added
-Tests can be added
-Better styling
-etc.
-
+Please check the steps below to run the project locally.
 
 ## Run Locally
 
@@ -46,4 +35,13 @@ App can be converted to JS and can be previewed.
 
   npm run preview
 ```
-
+Things that can be added:
+Caching
+Avoiding unnecessary API calls.
+Blocking unrequired API calls.
+React Query can be used to handle data more efficiently.
+Code Splitting
+Loaders can be added
+Tests can be added
+Better styling
+etc.
