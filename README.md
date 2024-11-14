@@ -52,6 +52,6 @@ Loaders can be added.
 
 Tests can be added
 
-Better styling.
+Better styling
 
 etc.
