@@ -27,7 +27,8 @@ etc.
 
 ## Run Locally
 
-System requirements: Node.JS
+System requirements: Node.js. 
+
 Node.js can be downloaded from: https://nodejs.org/en/download/package-manager
 
 Start the server
