@@ -3,6 +3,6 @@ import Repo from './Repo'
 
 export default function Repos({repos}) {
   return (
-    <div>{repos.map((repo, i) => (<Repo repo={repo}/>))}</div>
+    <div>{repos.map((repo, i) => (<Repo key={i} repo={repo}/>))}</div>
   )
 }

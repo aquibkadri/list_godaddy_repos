@@ -63,7 +63,7 @@ function RepoInfo() {
         <h1>{repo.full_name}</h1>
         <ul>
             <li><h2>Languages:</h2>{!languages.some(l => l === 'message') ? languages.join(', '): <span>No data found</span>}</li>
-            <li><h2>Issues:</h2>{issue.length === 0 ? <span>No issues present!</span> : <ol>{issue.map(i => <li>{i}</li>)}</ol>}</li>
+            <li><h2>Issues:</h2>{issue.length === 0 ? <span>No issues present!</span> : <ol>{issue.map((i, idx) => <li key={idx}>{i}</li>)}</ol>}</li>
             <li><h2>Forks:</h2>{forks.length === 0 ? <span>No forks present!</span> : <Repos repos={forks}/>}</li>
         </ul>
     </div>
