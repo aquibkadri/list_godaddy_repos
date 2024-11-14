@@ -37,12 +37,21 @@ App can be converted to static JS project and can be previewed.
   npm run preview
 ```
 Things that can be added:
+
 Caching
+
 Avoiding unnecessary API calls.
+
 Blocking unrequired API calls.
+
 React Query can be used to handle data more efficiently.
+
 Code Splitting
-Loaders can be added
+
+Loaders can be added.
+
 Tests can be added
-Better styling
+
+Better styling.
+
 etc.
