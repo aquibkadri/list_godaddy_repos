@@ -6,7 +6,7 @@ import { callAPIandSetState } from './Helper.js';
 function ReposList() {
   const [repoList, setRepoList] = useState([]);
 
-  const fetchList = async () => {
+  const fetchList = () => {
     callAPIandSetState('https://api.github.com/orgs/godaddy/repos', setRepoList)
   }
 
