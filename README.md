@@ -52,7 +52,7 @@ Loaders can be added.
 
 Tests can be added
 
-Directory structure can be more ouganized.
+Directory structure can be more organized.
 
 Better styling
 
