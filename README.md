@@ -29,7 +29,7 @@ Start the server
 
 ## Build and Preview
 
-App can be converted to JS and can be previewed.
+App can be converted to static JS project and can be previewed.
 
 ```
   npm run build
